@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="kr">
   <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>welcome to kokoa talk</title>
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
-        <!--To do: Wifi Icon-->
+        <i class="fa-solid fa-wifi"></i>
       </div>
       <div class="status-bar__column">
         <span>18:43</span>
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <!--Battery Icon-->
-        <!--Lighting Icon-->
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
       </div>
     </div>
+    <header class="welcome header">
+      <h1 class="welcome header__title">Welcome to kokoa clone</h1>
+      <p class="welcome header__text">
+        If you have a kokoa Acount, log in with your e-mail
+      </p>
+    </header>
+    <form id="login-form">
+      <input type="text" placeholder="Email or Phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="Log in" />
+      <a href="#">find account</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/0ca06ae104.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

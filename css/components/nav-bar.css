@@ -12,8 +12,8 @@
   justify-content: space-between;
 }
 
-.nav__link {
-  color: black;
+.nav__btn {
+  position: relative;
 }
 
 .nav__notification {
@@ -26,6 +26,21 @@
   align-items: center;
   color: white;
   font-weight: 600;
-  left: 10px;
-  position: relative;
+  position: absolute;
+  right: -10px;
+  top: -15px;
+}
+
+.nav__dot {
+  background-color: tomato;
+  color: wheat;
+  width: 7px;
+  height: 7px;
+  border-radius: 3.5px;
+  right: 10px;
+  top: 2px;
+  display: block;
+  position: absolute;
+  right: -10px;
+  top: -2px;
 }
